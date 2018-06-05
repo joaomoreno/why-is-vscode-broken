@@ -71,7 +71,7 @@ async function main() {
 
   const message = document.createElement('p');
   message.className = 'message';
-  message.innerText = 'Potential Culprits:';
+  message.innerText = 'Potential first commits to break the build:';
   commits.appendChild(message);
 
   for (const commit of status.commits) {
